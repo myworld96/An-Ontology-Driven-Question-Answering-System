@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#"
+     xml:base="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Legal="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#"
+     xmlns:Legal1="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#"
+     xmlns:untitled-ontology-21="http://www.semanticweb.org/akshay/ontologies/2018/11/untitled-ontology-21#"
+     xmlns:Demanding_exess_fare_for_Taxi="http://www.semanticweb.org/akshay/ontologies/2018/11/Legalnew#Demanding_exess_fare_for_Taxi/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driving -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driving">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Demanding_exess_fare_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Demanding_exess_fare_for">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Driving_Unisured -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Driving_Unisured">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Driving_at_exessive_speed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Driving_at_exessive_speed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Illegally_Modifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Illegally_Modifies">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#carrying_excess_load_in_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#carrying_excess_load_in_a">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#driving_without_number_Plate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#driving_without_number_Plate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#not_having -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#not_having">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#running_driving_school_without_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#running_driving_school_without_a">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Penality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Penality">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#Manufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#minor_person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Owner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#minor_person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#minor_person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#carrying_excess_load_in_a_Vehicle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#carrying_excess_load_in_a_Vehicle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#demanding_excess_fare_for_Autorickshaw -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#demanding_excess_fare_for_Autorickshaw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Legal1:Penality>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#demanding_excess_fare_for_Taxi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#demanding_excess_fare_for_Taxi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Legal1:Penality>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#doing_Unauthorized_interference_with_vehicle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#doing_Unauthorized_interference_with_vehicle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#Person"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#driving_a_vehicle_at_an_excessive_speed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#driving_a_vehicle_at_an_excessive_speed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</Legal1:Penality>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#driving_uninsured_vehicle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#driving_uninsured_vehicle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#driving_vehicle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#driving_vehicle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#minor_person"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#driving_vehicle_without_number_Plate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#driving_vehicle_without_number_Plate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Legal1:Penality>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#modifies_a_vehicle_illegally -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#modifies_a_vehicle_illegally">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal1#Owner"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Legal1:Penality>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#not_having_license -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#not_having_license">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/Legal.owl#Driver"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#running_driving_school_without_a_license -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#running_driving_school_without_a_license">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#Person"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</Legal1:Penality>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#taking_vehicle_without_authority -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#taking_vehicle_without_authority">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#Person"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</Legal1:Penality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#using_sub-standard_articles_or_process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#using_sub-standard_articles_or_process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/akshay/ontologies/2018/11/LEGALUPDATE#Manufacturer"/>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</Legal1:Penality>
+        <Legal1:Penality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</Legal1:Penality>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+
