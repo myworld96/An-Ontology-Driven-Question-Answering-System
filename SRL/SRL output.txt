@@ -1,0 +1,7 @@
+ 
+
+					 A1: License
+					 A0: Driver
+					 AM-NEG: not
+					 V: having
+
