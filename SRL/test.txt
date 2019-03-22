@@ -1,1 +1,13 @@
-
+Driver not having License.
+minor person driving vehicle.	
+Driver driving an uninsured vehicle.
+Driver Driving a vehicle at an excessive speed.
+Owner modifies a vehicle illegally.
+Driver  carrying excess load in a vehicle.
+Driver Demanding excess fare for Autorickshaw.
+Driver Demanding excess fare for Taxi.
+Person Running driving school without a license.
+Person Taking vehicle without authority.
+Person doing Unauthorized interference with vehicle.
+manufacturer using sub-standard articles or process.
+Driver driving vehicle without number plate
