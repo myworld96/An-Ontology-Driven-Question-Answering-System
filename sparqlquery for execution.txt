@@ -1,0 +1,49 @@
+ select ?uri
+ where  { ?uri  rdfs:subClassOf<http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Lakeshore> } 
+
+Individual & subclass:
+
+
+ SELECT  *
+WHERE {
+   ?cls rdfs:subClassOf*  <http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Lakeshore>.
+   ?individual a ?cls .
+}
+
+Individual:
+
+SELECT   ?individual
+WHERE {
+   ?cls rdfs:subClassOf*  <http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Lakeshore>.
+   ?individual a ?cls .
+}
+
+dataproperty:
+
+SELECT ?lname
+WHERE {
+  ?inst <http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Qualification>  ?lname.
+}
+
+dataproperty and value of a specific class:
+
+SELECT ?Working_time ?Qualification
+WHERE {
+   ?inst a <http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Dr.Anoop_G_Mohan>   .
+ ?inst <http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Working_time> ?Working_time  .
+  ?inst <http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Qualification>  ?Qualification .
+}
+
+
+individual details:
+
+select distinct ?property  ?value where {
+  <http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Holi_Gen_doct2>  ?property  ?value .
+}
+
+dataproperty of a specific individual:
+
+select distinct ?property  ?value where {
+  <http://www.semanticweb.org/aparna/ontologies/2018/9/hospitaldomain-ontology-8#Holi_Gen_doct2>  ?property  ?value .
+filter ( ?property not in ( rdf:type ) )
+}
